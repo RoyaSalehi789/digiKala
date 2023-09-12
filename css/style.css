@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.woff') format('woff');
+}
+
+body {
+    direction: rtl;
+    font-family: "vazir" !important;
+    background-color: #F5F5F5;
+}
+
+.logo {
+    height: 36px;
+    display: block;
+    text-align: right;
+    background: url("../img/logo.svg") no-repeat 100%;
+    background-size: auto 100%;
+}
+.register {
+    font-size: 14px;
+}
